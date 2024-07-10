@@ -1,0 +1,233 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Start content from the top */
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0; /* Example background color */
+     /* Padding around the body content */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: slided;
+  font-family: "Poppins", sans-serif;
+
+}
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --main-color: #f0f0f0;
+  --other-color: #ffc633;
+  --second-color: #616060;
+
+  --h1-font: 5.5rem;
+  --h2-font: 3.5rem;
+  --p-font: 1rem;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
+  background-image: url('commander1.png');  
+  background-position: center;
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  background: var(--bg-color);
+  justify-content: space-between;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 5%);
+  padding: 18px 14%;
+  transition: all .6s;
+}
+
+.navlist {
+  display: flex;
+}
+
+.navlist a {
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  margin: 0 30px;
+  font-size: var(--p-font);
+  font-weight: 500;
+  color: var(--text-color);
+  transition: all .6s;
+}
+
+.navlist a:hover {
+  transform: translateY(-4px);
+  color: var(--second-color);
+}
+
+.logo {
+  font-size: 33px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #4B3621;
+  font-kerning: normal;
+  justify-content: left;
+
+}
+
+.nav-right {
+  display: inline-block;
+  font-size: 22px;
+  color: var(--text-color);
+  margin: 0 20px;
+  transition: all .6s;
+  display: flex;
+}
+
+.nav-right a:hover {
+  transform: translateY(-5px) scale(1.1);
+}
+
+.bx-menu {
+  display: none;
+}
+
+.commander-watch-container {
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ccc;
+    width: 80%; /* Adjust width as needed */
+    max-width: 1200px; /* Maximum width for responsiveness */
+    padding: 20px;
+    background-color: #fff; /* Example background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Example box shadow */
+    text-align: center; /* Center text content */
+    margin-top: 20px; /* Add space above the content */
+}
+
+.watch-image {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%; /* Ensures image takes full width of its container */
+    overflow: hidden; /* Ensures no overflow of image beyond container */
+}
+
+.watch-image img {
+    width: 100%; /* Ensures image takes full width of its container */
+    height: 100; /* Maintains aspect ratio */
+    display: block; /* Removes any default inline-block spacing */
+    border-radius: 10px;
+    
+}
+
+.commander-watch-description {
+    padding: 20px;
+    text-align: center;
+}
+
+.commander-watch-description h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.commander-watch-description p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.commander-watch-description h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.commander-watch-description ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.commander-watch-description ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.commander-watch-description ul li strong {
+    color: #333;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 20px; /* Add space above the footer */
+    width: 100%;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-section {
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    color: #f1c40f;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+}

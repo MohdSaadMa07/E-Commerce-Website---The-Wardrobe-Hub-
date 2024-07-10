@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: slided;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --main-color: #f0f0f0;
+  --other-color: #ffc633;
+  --second-color: #616060;
+
+  --h1-font: 5.5rem;
+  --h2-font: 3.5rem;
+  --p-font: 1rem;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
+  background-image: url('closet-1-boca-do-lobo-scaled.jpg');  
+  background-position: center;
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  background: var(--bg-color);
+  justify-content: space-between;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 5%);
+  padding: 18px 14%;
+  transition: all .6s;
+}
+
+.navlist {
+  display: flex;
+}
+
+.navlist a {
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  margin: 0 30px;
+  font-size: var(--p-font);
+  font-weight: 500;
+  color: var(--text-color);
+  transition: all .6s;
+}
+
+.navlist a:hover {
+  transform: translateY(-4px);
+  color: var(--second-color);
+}
+
+.logo {
+  font-size: 33px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #4B3621;
+  font-kerning: normal;
+  justify-content: left;
+
+}
+
+.nav-right {
+  display: inline-block;
+  font-size: 22px;
+  color: var(--text-color);
+  margin: 0 20px;
+  transition: all .6s;
+  display: flex;
+}
+
+.nav-right a:hover {
+  transform: translateY(-5px) scale(1.1);
+}
+
+.bx-menu {
+  display: none;
+}
+
+.cart {
+  max-width: 800px;
+  margin: 100px auto 50px auto; /* Added top margin to create space between navbar and cart */
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for the cart section */
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+}
+
+.cart h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0); /* Fully transparent background */
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for cells */
+}
+
+.cart-summary {
+  text-align: right;
+}
+
+.cart-summary p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.footer-section {
+  margin: 10px;
+}
+
+.footer-section h4 {
+  margin-bottom: 15px;
+  color: #f1c40f;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-section ul li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #444;
+}
+

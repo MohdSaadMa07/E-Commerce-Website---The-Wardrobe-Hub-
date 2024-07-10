@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bought</title>
+  <link rel="stylesheet" href="style.css">
+  <!--box-icon link-->
+  <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!--remixicon link-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+  />
+  <!--google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">The Wardrobe Hub</a>
+    <ul class="navlist" id="navlist">
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">On sale</a></li>
+      <li><a href="#">New Arrivals</a></li>
+      <li><a href="#">Brands</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="#"><i class="ri-search-line"></i></a>
+        <li><a href="cart.html" id="cart-icon"><i class="ri-shopping-cart-line"></i></a></li>
+      <a href="#"><i class="ri-user-line"></i></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+  </header>
+  <section class="home">
+    <div class="home-text">
+      <h6>New arrivals</h6>
+      <h1>New Arrivals <br> Ready to Rock</h1>
+      <p>Styles and the latest trends await you. Our new collection features an array of innovative designs and high-quality materials, crafted to elevate your wardrobe. Stay ahead of the fashion curve and explore what's new in our store. From chic apparel to must-have accessories, there's something for everyone. Don't miss out on the opportunity to be among the first to own these exclusive pieces.</p>
+        <a href="#shop-now-section" class="btn">
+            Shop Now <i class="ri-arrow-right-line"></i>
+        </a>
+    </div>
+  </section>
+  <div class="brands">
+    <div class="main-brands">
+      <div class="brands-c">
+          <img src="g1.png">
+      </div>
+      <div class="brands-c">
+          <img src="g2.png">
+      </div>
+      <div class="brands-c">
+          <img src="g3.png">
+      </div>
+      <div class="brands-c">
+          <img src="g4.png">
+      </div>
+      <div class="brands-c">
+          <img src="g5.png">
+      </div>
+    </div>
+  </div>
+  <section class="n-product" id="shop-now-section">
+      <div class="center-text">
+          <h2>Exquisite Collection</h2>
+      </div>
+      <br>
+      <div class="n-content n-content1">
+          <div class="row">
+              <div class="row-image">
+                  <img src="1p.jpg" alt="GUCCI Bee Hoodie for Men">
+              </div>
+              <div class="row-in">
+                  <h3>GUCCI Bee Hoodie for Men</h3>
+                  <p> The signature Gucci bee emblem, meticulously embroidered on premium fabric, symbolizes both elegance and exclusivity. Designed for the discerning fashion connoisseur, this statement piece offers unparalleled craftsmanship and timeless appeal.</p>
+                  <div class="options">
+                  <div class="size-selector">
+                      
+                      <select id="size-1">
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                          <option value="XL">XL</option>
+                      </select>
+                  </div>
+                  <div class="add-to-cart">
+                      <a href="#" class="add-cart-btn" onclick="addToCart('GUCCI Bee Hoodie for Men', 2500,'size-1')">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="n-content n-content2">
+          <div class="row">
+              <div class="row-image">
+                  <img src="2p.jpg" alt="Versace Hoodie for Men">
+              </div>
+              <div class="row-in">
+                  <h3>Versace Hoodie for Men</h3>
+                  <p>Elevate your casual wardrobe with the epitome of opulence and style—the Versace Men's Luxury Hoodie. Crafted with meticulous attention to detail, this hoodie combines contemporary design with the timeless elegance of the Versace brand.</p>
+                  
+                  <div class="options">
+                  <div class="size-selector">
+
+                        <select id="size-2">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </div>
+                  <div class="add-to-cart">
+                      <a href="#" class="add-cart-btn" onclick="addToCart('Versace Hoodie for Men', 2750,'size-2')">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="n-content n-content3">
+          <div class="row">
+              <div class="row-image">
+                  <img src="3p.png" alt="STUDDED LEATHER JACKET - LIMITED EDITION">
+              </div>
+              <div class="row-in">
+                  <h3>STUDDED LEATHER JACKET - LIMITED EDITION</h3>
+                  <p>A masterpiece of luxury and edgy sophistication. Crafted from the finest Italian leather, this jacket epitomizes elegance and rebellious charm. Adorned with meticulously placed studs, it exudes a bold, avant-garde aesthetic.</p>
+                <div class="options">
+                  <div class="size-selector">
+
+                        <select id="size-3">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </div>
+                  <div class="add-to-cart">
+                      <a href="#" class="add-cart-btn" onclick="addToCart('STUDDED LEATHER JACKET - LIMITED EDITION', 2750, 'size-3')">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                  </div>  
+                  </div>
+              </div>
+          </div>
+        </div>
+      <div class="n-content n-content4">
+          <div class="row">
+              <div class="row-image">
+                  <img src="4p.png" alt="ZARA COLLECTION FAUX FUR COLLAR COAT">
+              </div>
+              <div class="row-in">
+                  <h3>ZARA COLLECTION FAUX FUR COLLAR COAT</h3>
+                  <p>Elegant piece combines modern design with timeless luxury, featuring a plush faux fur collar that exudes opulence. Crafted from premium materials, the coat offers both warmth and style, making it a standout addition to your wardrobe. </p>
+                  <div class="options">
+                  <div class="size-selector">
+
+                        <select id="size-4">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </div>
+                  <div class="add-to-cart">
+                        <a href="#" class="add-cart-btn" onclick="addToCart('ZARA COLLECTION FAUX FUR COLLAR COAT', 2750, 'size-4')">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="n-content n-content5">
+          <div class="row">
+              <div class="row-image">
+                  <img src="5p.png" alt="Calvin Klein Jeans Unisex reversible skater jacket in black">
+              </div>
+              <div class="row-in">
+                  <h3>Calvin Klein Jeans Unisex reversible skater jacket</h3>
+                  <p>Discover the perfect blend of urban style and versatile elegance with the Calvin Klein Unisex Reversible Skater Jacket. The minimalist aesthetic, adorned with subtle CK branding, ensures timeless appeal, making it an essential addition to any modern wardrobe.</p>
+                  <div class="options">
+                  <div class="size-selector">
+
+                        <select id="size-5">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </div>
+                  <div class="add-to-cart">
+                        <a href="#" class="add-cart-btn" onclick="addToCart('Calvin Klein Jeans Unisex reversible skater jacket in black', 4000, 'size-5')">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                    </div>
+                  </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="n-content n-content6">
+                                    <div class="row">
+                                        <div class="row-image1">
+                                            <img src="commander1.png" alt="Omega Commander Watch">
+                                        </div>
+                                        <div class="row-in">
+                                            <h3>Omega Commander Watch</h3>
+                                            <p>Elevate your style with the Omega Commander Watch, a masterpiece that blends heritage with innovation. Designed for the discerning connoisseur, this timepiece exudes sophistication and precision craftsmanship.</p>
+                                        
+        
+                                            <div class="learn-more">
+                                                <a href="watch1.html">Learn More</a>
+                                            </div>
+
+                                            <div class="options1">
+                                            <div class="size-selector">
+
+                                                <select id="size-6">
+                                                    <option value="S">Standard</option>
+                                                    <option value="C">Custom</option>
+                                                    
+                                                </select>
+                                            </div>
+                                            <div class="add-to-cart">
+                                                <a href="#" class="add-cart-btn" onclick="addToCart('Omega Commander Watch', 1700,'size-6')">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                                                                                      </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="n-content n-content7">
+                                    <div class="row">
+                                        <div class="row-image">
+                                            <img src="8p.webp" alt="GUCCI Aria belted leather-trimmed cotton-blend canvas-jacquard jacket">
+                                        </div>
+                                        <div class="row-in">
+                                            <h3>GUCCI Aria belted leather canvas-jacquard jacket</h3>
+                                            <p>Indulge in refined elegance with the GUCCI Aria jacket, a masterpiece of luxury and craftsmanship. Exemplifying Gucci's signature style and attention to detail. Adding a touch of sophistication, making it a timeless addition to any discerning wardrobe.</p>
+                                        <div class="options">
+                                            <div class="size-selector">
+
+                                                  <select id="size-7">
+                                                      <option value="S">S</option>
+                                                      <option value="M">M</option>
+                                                      <option value="L">L</option>
+                                                      <option value="XL">XL</option>
+                                                  </select>
+                                              </div>
+                                            <div class="add-to-cart">
+                                                <a href="#" class="add-cart-btn" onclick="addToCart('GUCCI Aria belted leather-trimmed canvas-jacquard jacket', 4500, 'size-7')">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                                            </div>
+                                        </div>
+                                </div>
+                            </section>
+
+                            <br><br>
+                            <footer class="footer">
+                                <div class="footer-container">
+                                    <div class="footer-section">
+                                        <h4>About Us</h4>
+                                        <ul>
+                                            <li><a href="#">Our Story</a></li>
+                                            <li><a href="#">Mission & Vision</a></li>
+                                            <li><a href="#">Careers</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer-section">
+                                        <h4>Customer Service</h4>
+                                        <ul>
+                                            <li><a href="#">Contact Us</a></li>
+                                            <li><a href="#">Branches</a></li>
+                                            <li><a href="#">FAQ</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer-section">
+                                        <h4>Follow Us</h4>
+                                        <ul class="social-links">
+                                            <li><a><i class="ri-instagram-fill"></i>Instagram</a></li>
+                                            <li><a href="#"><i class="ri-twitter-fill"></i> Twitter</a></li>
+                                            <li><a href="#"><i class="ri-facebook-box-fill"></i> Facebook</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer-section">
+                                        <h4>Legal</h4>
+                                        <ul>
+                                            <li><a href="#">Privacy Policy</a></li>
+                                            <li><a href="#">Terms of Service</a></li>
+                                            <li><a href="#">Return Policy</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                                <div class="footer-bottom">
+                                    <p>&copy; 2024 The Wardrobe Hub. All Rights Reserved.</p>
+                                </div>
+                            </footer>
+                            <script src="script.js"></script>
+                          </body>
+                          </html>
+
